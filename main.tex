@@ -1,8 +1,18 @@
-
 \documentclass[letterpaper,11pt]{article}
+\usepackage{filecontents}
+\begin{filecontents}{myrefs.bib}
+@article{pred,
+  author    = {Davi Pereira-Santos and Gabriel Dalforno and Andre Carlos P L F Carvalho},
+  title     = {Predictable universally unique identification of sequential events on complex objects},
+  journal   = {Soon on arXiv / Elsevier submission},
+  year      = {2021},
+}
+\end{filecontents}
+
 
 % Choose bibliography style for formatting list of publications
 \usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
+\addbibresource{myrefs.bib}
 \bibliography{papers}
 
 % Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
@@ -22,9 +32,9 @@
 % Heading
 \headinginline{Davi Pereira dos Santos}{
     % Website: \website{example.com} \\ 
-    Email: \email{dpsabc@gmail.com} \\
+    \email{dpsabc@gmail.com} \\
     % LinkedIn: \linkedin{name-surname} \\
-    GitHub: \github{davips}
+    \github{davips}
 }
 
 % \headingphoto{Name Surname}{
@@ -41,14 +51,13 @@
     {\import{sections/}{skills.tex}}
     {\import{sections/}{languages.tex}}
 
-\pagebreak
+% \pagebreak
 
 % Page Two
 \import{sections/}{teaching.tex}
 \import{sections/}{projects.tex}
 \import{sections/}{awards.tex}
 \import{sections/}{extracurricular.tex}
-
 \import{sections/}{publications.tex}
 
 \end{document}
