@@ -1,4 +1,5 @@
 \documentclass[letterpaper,11pt]{article}
+\usepackage{setspace} 
 % \usepackage{filecontents}
 % \begin{filecontents}{myrefs.bib}
 % @article{pred,
@@ -24,11 +25,64 @@
 % https://commons.wikimedia.org/wiki/File:Kiara_Krit_passport.jpg
 
 \usepackage{simplecv}
-
 \boldname{Pereira dos Santos}{Davi}{N.}
+\usepackage{ragged2e}
 
 \begin{document}
+\headinginline{Letter of Interest}{}
+\vspace{40pt}
 
+{\justifying
+\Large
+\setstretch{1.0}
+Dear Dr. Christopher Kadow (or Dear Recruiter, if other person),
+\vspace{10pt}
+
+I am very interested in the Computational Research Scientist position  at Deutsches Klimarechenzentrum GmbH.
+I would like to employ my knowledge and experience helping to solve climate-related issues.
+My experience and current occupation seem to be a good fit as I have  a growing research track in Machine Learning (ML) along with participation in projects as a developer, from design to deploy.
+One of them was a platform for AutoML pipelines expressed as transformation steps where even cross-validation, accuracy and reports were considered as steps.
+This creative approach allowed us to greatly simplify the tools and even provide a interface for users without previous knowledge in Computer Science. We also could embed auditability, replicability and other conveniences into the process.
+I feel motivated at creative environments and one of my driving forces is the belief to be contributing to society.
+
+}
+
+{\justifying
+\Large
+\setstretch{1.0}
+Modeling parts of the world into computational structures and abstract thinking have been one of my best qualities, as can be seen in my last submitted paper and software.
+Most of my career I spent learning, and hope to learn much more from leading academics at your institution and in Europe.
+Access to high-end technological resources is also something I would expect in this opportunity.
+Additionally, I am passionate about the German culture and assertiveness of the country, leading initiatives that target sustainability and human rights.
+\vspace{20pt}
+
+Please feel free to contact any of my direct coleagues or supervisors:
+
+Prof. Adriano Rivolli - rivolli@utfpr.edu.br
+
+Prof. Luís Paulo F. Garcia - luis.garcia@unb.br
+
+Dr. Rafael Bizão - rabizao@gmail.com
+
+Prof. João Batista - jbatista@icmc.usp.br
+
+Prof. Joao Pedro Pedroso - jpp@fc.up.pt
+
+Prof. André Carvalho - andre@icmc.usp.br
+
+}
+
+{\justifying
+\Large
+\setstretch{1.0}
+\vspace{30pt}
+\hspace{420pt} Sincerely yours,
+\vspace{10pt}
+
+\hspace{420pt} Davi
+}
+
+\newpage
 % Heading
 \headinginline{Davi Pereira dos Santos}{
     % Website: \website{example.com} \\ 
@@ -45,9 +99,11 @@
 % }{photo.jpg}
 
 \vspace{0.35cm}
+{\justifying
 I am a Brazilian/Polish citizen looking for a developer and/or research position. 
-I am particularly interested in programming ergonomics (type systems, functional programming, automatic identifiers, intuitive syntax) applied to fields like data science or any field where the number of users from areas not necessarily related to Computer Science is increasing, or where even experienced developers are willing to think about algorithm implementation in a new perspective.
-I am also interested in providing innovative tools to ease the programming task (IDE, version control, language/library design, etc.) in general or for a specific product development.
+I am particularly interested in programming ergonomics (type systems, functional programming, automatic identifiers, intuitive syntax) and tools applied to fields like data science or for a specific product development.
+Currently, I am working on applications\footnote{https://pypi.org/project/garoupa and https://pypi.org/project/ldict} in data science and programming in general that take advantage of my proposed algebra-based identification concept that is under review \cite{pereirasantos2021predictable}. %
+}
 
 % Page One
 \import{sections/}{education.tex}
@@ -61,8 +117,9 @@ I am also interested in providing innovative tools to ease the programming task 
 % Page Two
 \import{sections/}{teaching.tex}
 \import{sections/}{projects.tex}
-\import{sections/}{awards.tex}
 \import{sections/}{extracurricular.tex}
+\newpage
+\import{sections/}{awards.tex}
 \import{sections/}{publications.tex}
 
 \end{document}
