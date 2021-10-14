@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=main.tex
+lastDocument=sections/projects.tex
 
 [document-settings,item:main.tex]
 Bookmarks=
@@ -112,64 +112,64 @@ open=true
 order=0
 
 [item:papers.bib]
-open=true
+open=false
 order=1
 
 [item:sections/awards.tex]
 open=true
-order=3
+order=5
 
 [item:sections/education.tex]
 open=false
 order=-1
 
 [item:sections/experience.tex]
-open=false
-order=-1
+open=true
+order=4
 
 [item:sections/extracurricular.tex]
-open=true
+open=false
 order=2
 
 [item:sections/languages.tex]
-open=false
-order=-1
+open=true
+order=1
 
 [item:sections/projects.tex]
-open=false
-order=-1
+open=true
+order=6
 
 [item:sections/publications.tex]
 open=false
 order=-1
 
 [item:sections/skills.tex]
-open=false
-order=-1
+open=true
+order=2
 
 [item:sections/teaching.tex]
-open=false
-order=-1
+open=true
+order=3
 
 [view-settings,view=0,item:main.tex]
-CursorColumn=8
-CursorLine=37
+CursorColumn=39
+CursorLine=123
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
-ViMarks=.,37,7,[,37,7,],37,7
+ViMarks=.,123,39,[,123,39,],123,39
 
 [view-settings,view=0,item:papers.bib]
-CursorColumn=6
+CursorColumn=0
 CursorLine=0
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,5,58,[,5,56,],5,58
+ViMarks=.,0,0,[,0,0,],0,0
 
 [view-settings,view=0,item:sections/awards.tex]
 CursorColumn=0
-CursorLine=15
+CursorLine=2
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
@@ -184,12 +184,12 @@ TextFolding=[]
 ViMarks=.,8,9,[,8,9,],8,9
 
 [view-settings,view=0,item:sections/experience.tex]
-CursorColumn=70
-CursorLine=7
+CursorColumn=0
+CursorLine=35
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,7,69,[,7,69,],7,69
+ViMarks=.,30,0,[,30,0,],30,0
 
 [view-settings,view=0,item:sections/extracurricular.tex]
 CursorColumn=16
@@ -205,15 +205,15 @@ CursorLine=0
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=
+ViMarks=.,0,0,[,0,0,],0,0
 
 [view-settings,view=0,item:sections/projects.tex]
-CursorColumn=67
-CursorLine=11
+CursorColumn=0
+CursorLine=37
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,11,67,[,11,67,],11,67
+ViMarks=.,36,15,[,36,15,],36,15
 
 [view-settings,view=0,item:sections/publications.tex]
 CursorColumn=0
@@ -229,11 +229,11 @@ CursorLine=10
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=
+ViMarks=.,4,0,[,4,0,],4,0
 
 [view-settings,view=0,item:sections/teaching.tex]
-CursorColumn=46
-CursorLine=15
+CursorColumn=0
+CursorLine=10
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
