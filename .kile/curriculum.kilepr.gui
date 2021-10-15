@@ -152,12 +152,12 @@ open=false
 order=3
 
 [view-settings,view=0,item:main.tex]
-CursorColumn=32
-CursorLine=107
+CursorColumn=39
+CursorLine=100
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
-ViMarks=.,107,31,[,107,29,],107,31
+ViMarks=.,46,39,[,46,39,],46,39
 
 [view-settings,view=0,item:papers.bib]
 CursorColumn=0
