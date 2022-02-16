@@ -148,16 +148,16 @@ open=false
 order=2
 
 [item:sections/teaching.tex]
-open=false
-order=3
+open=true
+order=1
 
 [view-settings,view=0,item:main.tex]
-CursorColumn=39
-CursorLine=100
+CursorColumn=41
+CursorLine=53
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
-ViMarks=.,46,39,[,46,39,],46,39
+ViMarks=.,53,40,[,53,31,],53,40
 
 [view-settings,view=0,item:papers.bib]
 CursorColumn=0
@@ -233,7 +233,7 @@ ViMarks=.,4,0,[,4,0,],4,0
 
 [view-settings,view=0,item:sections/teaching.tex]
 CursorColumn=0
-CursorLine=2
+CursorLine=28
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
