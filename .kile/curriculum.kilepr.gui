@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=main.tex
+lastDocument=sections/publications.tex
 
 [document-settings,item:main.tex]
 Bookmarks=
@@ -140,8 +140,8 @@ open=false
 order=6
 
 [item:sections/publications.tex]
-open=false
-order=-1
+open=true
+order=2
 
 [item:sections/skills.tex]
 open=false
@@ -152,12 +152,12 @@ open=true
 order=1
 
 [view-settings,view=0,item:main.tex]
-CursorColumn=41
-CursorLine=53
+CursorColumn=0
+CursorLine=100
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
-ViMarks=.,53,40,[,53,31,],53,40
+ViMarks=.,99,0,[,94,0,],-1,-1
 
 [view-settings,view=0,item:papers.bib]
 CursorColumn=0
@@ -216,12 +216,12 @@ TextFolding=[]
 ViMarks=.,36,15,[,36,15,],36,15
 
 [view-settings,view=0,item:sections/publications.tex]
-CursorColumn=0
-CursorLine=2
+CursorColumn=98
+CursorLine=6
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,0,0,[,0,0,],0,0
+ViMarks=.,6,97,[,6,97,],6,97
 
 [view-settings,view=0,item:sections/skills.tex]
 CursorColumn=0
