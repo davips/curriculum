@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=sections/publications.tex
+lastDocument=sections/skills.tex
 
 [document-settings,item:main.tex]
 Bookmarks=
@@ -120,12 +120,12 @@ open=false
 order=5
 
 [item:sections/education.tex]
-open=false
-order=-1
+open=true
+order=2
 
 [item:sections/experience.tex]
-open=false
-order=4
+open=true
+order=6
 
 [item:sections/extracurricular.tex]
 open=false
@@ -136,10 +136,11 @@ open=false
 order=1
 
 [item:sections/projects.tex]
-open=false
-order=6
+open=true
+order=5
 
 [item:sections/publications.tex]
+<<<<<<< HEAD
 open=true
 order=2
 
@@ -176,20 +177,20 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:sections/education.tex]
-CursorColumn=10
-CursorLine=8
+CursorColumn=25
+CursorLine=15
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
 ViMarks=.,8,9,[,8,9,],8,9
 
 [view-settings,view=0,item:sections/experience.tex]
-CursorColumn=0
-CursorLine=35
+CursorColumn=32
+CursorLine=32
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,30,0,[,30,0,],30,0
+ViMarks=.,25,10,[,25,10,],25,31
 
 [view-settings,view=0,item:sections/extracurricular.tex]
 CursorColumn=0
@@ -208,33 +209,25 @@ TextFolding=[]
 ViMarks=.,0,0,[,0,0,],0,0
 
 [view-settings,view=0,item:sections/projects.tex]
-CursorColumn=45
-CursorLine=18
+CursorColumn=60
+CursorLine=14
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,36,15,[,36,15,],36,15
-
-[view-settings,view=0,item:sections/publications.tex]
-CursorColumn=98
-CursorLine=6
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,6,97,[,6,97,],6,97
+ViMarks=.,14,59,[,14,53,],14,59
 
 [view-settings,view=0,item:sections/skills.tex]
-CursorColumn=0
-CursorLine=10
+CursorColumn=67
+CursorLine=7
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,4,0,[,4,0,],4,0
+ViMarks=.,7,66,[,7,58,],7,66
 
 [view-settings,view=0,item:sections/teaching.tex]
-CursorColumn=0
-CursorLine=28
+CursorColumn=8
+CursorLine=0
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,12,49,[,12,49,],12,49
+ViMarks=.,0,0,[,0,0,],0,7
