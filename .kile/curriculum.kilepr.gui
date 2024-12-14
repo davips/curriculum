@@ -125,7 +125,7 @@ order=2
 
 [item:sections/experience.tex]
 open=true
-order=6
+order=8
 
 [item:sections/extracurricular.tex]
 open=false
@@ -141,7 +141,7 @@ order=5
 
 [item:sections/publications.tex]
 open=true
-order=2
+order=7
 
 [item:sections/skills.tex]
 open=true
@@ -152,8 +152,8 @@ open=true
 order=1
 
 [view-settings,view=0,item:main.tex]
-CursorColumn=15
-CursorLine=90
+CursorColumn=132
+CursorLine=123
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -202,6 +202,22 @@ ViMarks=.,15,4,[,15,4,],15,15
 [view-settings,view=0,item:sections/languages.tex]
 CursorColumn=25
 CursorLine=8
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,0,0,[,0,0,],0,0
+
+[view-settings,view=0,item:sections/projects.tex]
+CursorColumn=14
+CursorLine=12
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,0,0,[,0,0,],0,0
+
+[view-settings,view=0,item:sections/publications.tex]
+CursorColumn=0
+CursorLine=0
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
